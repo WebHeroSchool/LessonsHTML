@@ -37,6 +37,10 @@
 	 padding-right: 0;
  }
 
+ .menu__item:hover {
+	 text-decoration: underline #0056EC;
+ }
+
  .main-section {
 	 display: flex;
  }

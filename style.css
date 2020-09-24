@@ -62,7 +62,7 @@
  }
 
  .menu__item:hover {
-   text-decoration: underline #0056EC;
+   text-decoration: underline; color: #0056EC;
  }
 
  .main-section {

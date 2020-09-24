@@ -70,6 +70,10 @@
 	 display: flex;
  }
 
+ .main-content {
+	 margin-top: 20px;
+ }
+
  .main-content__title {
 	font-family: PT Serif;
 	font-style: normal;
@@ -99,4 +103,9 @@
 	background: #0056EC;
 	border-radius: 4px;
 	padding: 10px 21px;
+}
+
+.image-content__image {
+	width: 770px;
+	height: 657px;
 }

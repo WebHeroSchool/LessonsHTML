@@ -29,7 +29,7 @@
 }
 
 .logo__circle_color_dark-blue {
-  background: #0056EC;
+  background: #0056ec;
   border-radius: 50%;
   opacity: .7;
 }
@@ -70,7 +70,7 @@
  }
 
  .main-content {
-   margin-top: 20px;
+   margin-top: 105px;
  }
 
  .main-content__title {
@@ -98,8 +98,8 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
-  color: #FFFFFF;
-  background: #0056EC;
+  color: #FFF;
+  background: #0056ec;
   border-radius: 4px;
   padding: 10px 21px;
 }

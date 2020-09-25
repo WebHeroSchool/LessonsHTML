@@ -12,7 +12,6 @@
   font-style: italic;
 }
 
-
 @font-face {
   font-family: 'ptserif';
   src: url('ptserif-italic-webfont.woff') format('woff');
@@ -20,10 +19,9 @@
   font-style: italic;
 }
 
-
 @font-face {
   font-family: 'ptserif';
   src: url('ptserif-regular-webfont.woff') format('woff');
   font-weight: regular;
   font-style: normal;
-}
+} 

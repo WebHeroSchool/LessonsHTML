@@ -12,7 +12,6 @@ body {
   justify-content: space-between;
 }
 
-/* Логотип */
 .header__logo {
   padding: 40px 0;
   font-family: PT Serif, Helvetica, Arial, Verdana, Tahoma, sans-serif;
@@ -46,7 +45,6 @@ body {
   border-radius: 50%;
 }
 
-/* Меню */
 .menu {
   display: flex;
   align-items: center;

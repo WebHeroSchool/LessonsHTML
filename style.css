@@ -10,6 +10,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .header__logo {
@@ -89,9 +90,10 @@ body {
 }
 
 .main {
-  padding-top: 100px;
-  padding-right: 63%;
-  background: url(img/mainimg.svg);
+  padding: 0 63% 100px 0;
+  background: url(images/mainimg.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
 }
 
 .main__title {
@@ -123,9 +125,4 @@ body {
   background: #0056ec;
   border-radius: 4px;
   padding: 10px 21px;
-}
-
-.image-content__image {
-  width: 770px;
-  height: 657px;
 }

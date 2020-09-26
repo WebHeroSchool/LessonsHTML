@@ -88,15 +88,13 @@ body {
   opacity: 1;
 }
 
-.main-section {
-  display: flex;
+.main {
+  padding-top: 100px;
+  padding-right: 63%;
+  background: url(img/mainimg.svg);
 }
 
-.main-content {
-  margin-top: 100px;
-}
-
-.main-content__title {
+.main__title {
   font-family: PT Serif, Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -107,7 +105,7 @@ body {
   margin: 0 0 40px 0;
 }
 
-.main-content__subtitle {
+.main__subtitle {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -116,11 +114,11 @@ body {
   margin: 0 0 41px 0;
 }
 
-.main-content__button {
+.main__button {
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 14px;
+  line-height: 16px;
   color: #fff;
   background: #0056ec;
   border-radius: 4px;

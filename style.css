@@ -121,6 +121,7 @@ body {
 }
 
 .main__button {
+  display: inline-block;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -128,5 +129,11 @@ body {
   color: #fff;
   background: #0056ec;
   border-radius: 4px;
-  padding: 10px 21px;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: opacity .5s;
+}
+
+.main__button:hover {
+  opacity: .5s;
 }

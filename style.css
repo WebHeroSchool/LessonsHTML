@@ -14,7 +14,7 @@ body {
 
 .header__logo {
   padding: 40px 0;
-  font-family: PT Serif;
+  font-family: PT Serif, Times New Roman, Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: 24px;

@@ -2,8 +2,12 @@ body {
   font-family: Roboto, Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
 
+.container {
+  max-width: 1920px;
+}
+
 .wrapper {
-  width: 80%;
+  width: 60%;
   margin: auto;
 }
 
@@ -136,4 +140,34 @@ body {
 
 .main__button:hover {
   opacity: .5s;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+  .header {
+    margin-bottom: 28px;
+  }
+  .main {
+    padding: 74% 0 0;
+    background-size: 74%;
+    background-position: top center;
+  }
+  .main__title {
+    margin-bottom: 44px;
+    font-family: PT Serif, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 30px;
+    line-height: 39px;
+  }
+  .main__subtitle {
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .main__button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+  }
 }

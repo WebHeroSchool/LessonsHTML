@@ -93,6 +93,10 @@ body {
   opacity: 1;
 }
 
+.burger{
+  display: none;
+}
+
 .main {
   padding: 0 63% 100px 0;
   background: url(images/mainimg.svg);
@@ -146,9 +150,25 @@ body {
   .menu {
     display: none;
   }
+
   .header {
     margin-bottom: 28px;
   }
+  span {
+    display: none;
+  }
+  .burger {
+    display: block;
+    width: 25px;
+    height: 17px;
+    padding-top: 33px;
+  }
+
+
+
+
+
+
   .main {
     padding: 74% 0 0;
     background-size: 74%;

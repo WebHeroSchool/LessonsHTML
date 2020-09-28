@@ -154,9 +154,11 @@ body {
   .header {
     margin-bottom: 28px;
   }
+
   span {
     display: none;
   }
+
   .burger {
     display: block;
     width: 25px;
@@ -164,27 +166,25 @@ body {
     padding-top: 33px;
   }
 
-
-
-
-
-
   .main {
     padding: 74% 0 0;
     background-size: 74%;
     background-position: top center;
   }
+
   .main__title {
     margin-bottom: 44px;
     font-family: PT Serif, Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-size: 30px;
     line-height: 39px;
   }
+
   .main__subtitle {
     margin-bottom: 25px;
     font-size: 16px;
     line-height: 19px;
   }
+  
   .main__button {
     font-weight: 500;
     font-size: 14px;

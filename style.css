@@ -155,9 +155,9 @@ body {
     margin-bottom: 28px;
   }
 
-.logo__shadow {
+  .logo__shadow {
 	display: none;
-}
+  }
 
   .burger {
     display: block;
@@ -194,7 +194,7 @@ body {
     line-height: 16px;
     margin: 10px auto 0 60px;
 }
+
 .main__button:hover {
 	text-shadow: 2px 3px 1px #777, 1px 2px 3px red;
-
 }

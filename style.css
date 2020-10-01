@@ -147,3 +147,119 @@ body {
   background: red;
   transition: .5s ease-out;
 }
+
+@media only screen and (min-width: 100px) and (max-width: 400px) {
+	.header__logo {
+    padding: 0 0 10.667vw 0;
+    color: transparent;
+  }
+
+  .menu {
+  	display: none;
+  }
+
+  .burger {
+    display: block;
+    width: 25px;
+    height: 17px;
+    padding-top: 25px;
+  }
+
+  .main {
+    padding: 27vw 8% 11.467vw 6.133vw;
+    background: top center no-repeat url(img/img.svg);
+    background-size: 84% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header {
+    margin-bottom: 7.854vw;
+  }
+
+  .main__title {
+    font: 8vw/10.667vw pt_serifbold, arial, helvetica, sans-serif;
+    margin: 0 0 8.533vw 0;
+    text-align: center;
+  }
+
+  .main__subtitle {
+    font: 4.267vw/5.067vw robotomedium, arial, helvetica, sans-serif;
+    margin: 0 0 6.667vw 0;
+    text-align: center;
+  }
+
+  .main__button {
+    font: 500 3.733vw/4.267vw robotomedium, arial, helvetica, sans-serif;
+    padding: 3.733vw 5.333vw;
+  }
+}
+}
+
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+	.logo__shadow {
+		display: none;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.burger {
+    display: block;
+    width: 25px;
+    height: 17px;
+    padding-top: 25px;
+  }
+
+  .header {
+    margin-bottom: 5.854vw;
+  }
+
+  .main {
+    padding: 3.833vw 50% 5.833vw 0;
+  }
+
+  .main__title {
+    font: 4.5vw/6.5vw pt_serifbold, arial, helvetica, sans-serif;
+    margin: 0 0 3.167vw 0;
+  }
+
+  .main__subtitle {
+    font: 2.1vw/3vw robotomedium, arial, helvetica, sans-serif;
+    margin: 0 0 6.833vw 0;
+  }
+
+  .main__button {
+    font: 498 2vw/1.3vw robotomedium, arial, helvetica, sans-serif;
+    padding: 1.9vw 2.333vw;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1000px) {
+	 .main {
+    padding: 47vw 50% 23.9vw 0;
+    background-position: top center;
+    margin-left: 10px
+  }
+
+  .main__title {
+    font: 4vw/5.2vw pt_serifbold, arial, helvetica, sans-serif;
+    margin: 0 0 26px 0;
+  }
+
+  .main__subtitle {
+    font: 1.8vw/2.1vw robotomedium, arial, helvetica, sans-serif;
+    margin: 0 0 4vw 0;
+  }
+
+  .main__button {
+    font: 500 1.4vw/1.6vw robotomedium, arial, helvetica, sans-serif;
+    padding: 1.4vw 2vw;
+  }
+
+  .header__logo {
+    color: transparent;
+  }
+}
